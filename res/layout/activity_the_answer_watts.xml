@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TheAnswerWatts" >
+
+    <RelativeLayout
+        android:id="@+id/theAnswerWattsMainView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/Watts_Amps_Button"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:onClick="returnButtonHit" />
+
+        <ImageView
+            android:id="@+id/imageViewAmpsAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/allwatts" />
+
+        <EditText
+            android:id="@+id/editTextWattsAnswer"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:editable="false"
+            android:ems="10" />
+    </RelativeLayout>
+
+</RelativeLayout>

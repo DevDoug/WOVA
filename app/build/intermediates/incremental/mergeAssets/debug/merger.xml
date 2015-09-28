@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="18.0.0"><source path="E:\Projects\WOVA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\assets"/></dataSet><dataSet config="main"><source path="E:\Projects\WOVA\app\src\main\assets"><file name="gif_test.gif" path="E:\Projects\WOVA\app\src\main\assets\gif_test.gif"/><file name="gif_test.html" path="E:\Projects\WOVA\app\src\main\assets\gif_test.html"/></source></dataSet><dataSet config="debug"><source path="E:\Projects\WOVA\app\src\debug\assets"/></dataSet></merger>

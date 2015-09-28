@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Projects\WOVA\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="E:\Projects\WOVA\app\build\intermediates\pre-dexed\debug\classes-256c50ea3a5e873404833f0ec386955fe92c3a17.jar" />
+    </item>
+    <item
+        jar="E:\android-studio-ide-141.1793788-windows\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Projects\WOVA\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-740cfe3ba9a2423e93003d2539eaa0440fbe382d.jar" />
+    </item>
+
+</items>

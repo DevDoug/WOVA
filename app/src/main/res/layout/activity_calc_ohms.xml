@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainViewOhms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CalcOhms">
+
+    <RelativeLayout
+        android:id="@+id/ButtonRelativeViewOhms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ViewSwitcher
+            android:id="@+id/viewSwitch_Watts_Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/watts" />
+
+            <ImageView
+                android:id="@+id/GreyWatts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/greyone" />
+        </ViewSwitcher>
+
+        <ViewSwitcher
+            android:id="@+id/viewSwitch_Watts_Amps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_Watts_Amps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/amps" />
+
+            <ImageView
+                android:id="@+id/imageView_Watts_Amps_Grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/greytwo" />
+        </ViewSwitcher>
+
+        <ViewSwitcher
+            android:id="@+id/viewSwitch_Watts_Volts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/volts" />
+
+            <ImageView
+                android:id="@+id/imageViewAmpsAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/greythree" />
+        </ViewSwitcher>
+
+        <ViewSwitcher
+            android:id="@+id/viewSwitch_Ohms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_Watts_Ohms_Grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/greyfour" />
+        </ViewSwitcher>
+    </RelativeLayout>
+
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/OhmsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextAmps"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textIsSelectable="true"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/Watts_Amps_Button"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:background="@android:color/transparent"
+                android:onClick="buttonHit" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:background="@android:color/transparent"
+                android:onClick="buttonHit" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:background="@android:color/transparent"
+                android:onClick="buttonHit" />
+
+            <EditText
+                android:id="@+id/editTextWatts"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textIsSelectable="true"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/editTextVolts"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textIsSelectable="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

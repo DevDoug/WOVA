@@ -1,0 +1,159 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\wova\
+* app\src\main\java\com\wova\home\
+* app\src\main\java\com\wova\home\CalcOhms.java
+* app\src\main\java\com\wova\home\Calcamps.java
+* app\src\main\java\com\wova\home\Calcvolts.java
+* app\src\main\java\com\wova\home\Calcwatts.java
+* app\src\main\java\com\wova\home\MainActivity.java
+* app\src\main\java\com\wova\home\TheAnswerAmps.java
+* app\src\main\java\com\wova\home\TheAnswerOhms.java
+* app\src\main\java\com\wova\home\TheAnswerVolts.java
+* app\src\main\java\com\wova\home\TheAnswerWatts.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\allapms.png
+* app\src\main\res\drawable-hdpi\allohms.png
+* app\src\main\res\drawable-hdpi\allvolts.png
+* app\src\main\res\drawable-hdpi\allwatts.png
+* app\src\main\res\drawable-hdpi\amps.png
+* app\src\main\res\drawable-hdpi\formulabuttonamps.png
+* app\src\main\res\drawable-hdpi\formulabuttonohms.png
+* app\src\main\res\drawable-hdpi\formulabuttonvolts.png
+* app\src\main\res\drawable-hdpi\formulabuttonwatts.png
+* app\src\main\res\drawable-hdpi\greyfour.png
+* app\src\main\res\drawable-hdpi\greyone.png
+* app\src\main\res\drawable-hdpi\greythree.png
+* app\src\main\res\drawable-hdpi\greytwo.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\ohmbutton.png
+* app\src\main\res\drawable-hdpi\ohms.png
+* app\src\main\res\drawable-hdpi\volts.png
+* app\src\main\res\drawable-hdpi\voltsgrey.png
+* app\src\main\res\drawable-hdpi\watts.png
+* app\src\main\res\drawable-hdpi\wattscurrentbutton.png
+* app\src\main\res\drawable-hdpi\wattsresistance.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_calc_ohms.xml
+* app\src\main\res\layout\activity_calcamps.xml
+* app\src\main\res\layout\activity_calcvolts.xml
+* app\src\main\res\layout\activity_calcwatts.xml
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\activity_the_answer_amps.xml
+* app\src\main\res\layout\activity_the_answer_ohms.xml
+* app\src\main\res\layout\activity_the_answer_volts.xml
+* app\src\main\res\layout\activity_the_answer_watts.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\amps__watts__ohms.xml
+* app\src\main\res\menu\amps__watts__volts.xml
+* app\src\main\res\menu\amps_volts__ohms.xml
+* app\src\main\res\menu\ampsand_volts.xml
+* app\src\main\res\menu\calc_ohms.xml
+* app\src\main\res\menu\calcamps.xml
+* app\src\main\res\menu\calcvolts.xml
+* app\src\main\res\menu\calcwatts.xml
+* app\src\main\res\menu\main.xml
+* app\src\main\res\menu\the_answer.xml
+* app\src\main\res\menu\the_answer_amps.xml
+* app\src\main\res\menu\the_answer_ohms.xml
+* app\src\main\res\menu\the_answer_volts.xml
+* app\src\main\res\menu\the_answer_watts.xml
+* app\src\main\res\menu\watts__amps__ohms.xml
+* app\src\main\res\menu\watts__amps__volts.xml
+* app\src\main\res\menu\watts__volts__ohms.xml
+* app\src\main\res\values-sw600dp\
+* app\src\main\res\values-sw600dp\dimens.xml
+* app\src\main\res\values-sw720dp-land\
+* app\src\main\res\values-sw720dp-land\dimens.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+gridlayout-v7 => [com.android.support:gridlayout-v7:18.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
